@@ -12,8 +12,13 @@ Institue for Atmospheric Environmental Research (IMK-IFU), Karlsruhe Institute f
 ## Repository structure
 
 ```
--+- results  : postprocessed output from LPJ-GUESS model runs
- +- nbs      : analysis notebooks
- +- raw      : link to raw model output and processing steps
+-+- nbs           : analysis notebooks
+ +- preprocessing : scripts and steps to produce LPJ-GUESS drivers 
+ +- raw           : link to raw model output and processing steps
+ +- results       : postprocessed output from LPJ-GUESS model runs 
 ```
 
+Model drivers are currently located at the following Dropbox link:  
+[drivers](https://www.dropbox.com/sh/ygddwjjoe03okcu/AABxnBvthb5blziStwn8R_Vma?dl=0)
+
+NOTE: The driver files will be relocated to the KIT cloud location in the coming weeks.
